@@ -1,10 +1,9 @@
-#setwd("./AIV.GT-code")
 
 source("./functions/AIV.GT.R")
 source("./functions/PossCEs.R")
 load("./Datasets/SchoolingReturns.rData")
 
-############ AIV.GT ###
+############ AIV.GT #########
 alpha <- 0.05
  
 Varnames <- colnames(expdat)
