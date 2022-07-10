@@ -1,13 +1,10 @@
-# AIV.GT
-A R package for AIV.GT algorithm
-
-### All codes are written by R language ###
+# Codes: the AIV.GT algorithm
 
 ######### The codes are for the paper: 
 "Discovering ancestral instrumental variables for causal inference from observational data" 
 Debo Cheng and Jiuyong Li and Lin Liu and Kui Yu and Thuc Duy Le and Jixue Liu.
 
-# Codes: the AIV.GT algorithm
+### All codes are written by R language ###
 *AIV.GT
 *PossCEs.R
 # Code for IV.tetrad: iv_tetrad_test.R that is from the authors's home page
