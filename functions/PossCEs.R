@@ -1,12 +1,10 @@
 # ############################################################################################
 # PossCEs.R
 #
-# Code by
+# Code by Debo Cheng
 #
-#  - Anonymous Author(s)
 #
-# Current version: ***
-
+# Current version: January 15, 2022
 
 #' @title Discovering ancestral instrumental variables for causal inference from observational data.
 #'
