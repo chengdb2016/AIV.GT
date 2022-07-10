@@ -1,6 +1,6 @@
 # Codes: the AIV.GT algorithm
 
-######### The codes are for the paper: 
+The codes are for the paper: 
 "Discovering ancestral instrumental variables for causal inference from observational data" 
 Debo Cheng and Jiuyong Li and Lin Liu and Kui Yu and Thuc Duy Le and Jixue Liu.
 
