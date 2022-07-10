@@ -3,9 +3,8 @@
 #
 # The main functions for AIV.GT
 #
-# Code by
-#
-#  - Anonymous Author(s)
+# Code by Debo Cheng
+#  
 #
 # Current version: ***
  
