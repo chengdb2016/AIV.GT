@@ -6,7 +6,7 @@
 # Code by Debo Cheng
 #  
 #
-# Current version: Jan 15, 2022
+# Current version: January 15, 2022
  
 
 #' @title Discovering ancestral instrumental variables for causal inference from observational data.
