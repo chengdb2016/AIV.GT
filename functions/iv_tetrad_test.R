@@ -1,46 +1,6 @@
 ############################################################################################
 # iv_tetrad.R
 #
-# The main functions for IV-TETRAD
-#
-# Code by
-#
-#  - Ricardo Silva (ricardo@stats.ucl.ac.uk)
-#
-# Current version: 18/10/2016
-# First version: 18/10/2016
-
-#' @title Estimates causal effects by searching for plausible instruments.
-#' 
-#' @description
-#' 
-#' Generates synthetic examples and evaluation of different algorithms for estimating
-#' causal effects in linear models using instrumental variables.
-#' 
-#' @param train_dat training set.
-#' @param W_space   indices of the candidate instruments within the training set.
-#' @param x         index of treatment variable.
-#' @param y         index of outcome variable.
-#' @param K_win     window of candidates as used by the algorithm.
-#' @param verbose   if TRUE, prints out information about the steps taken.
-#'
-#'
-#' @return A list containing several outcomes of interest:
-#'   \item{\code{ace}}{a suggested average causal effect.}
-#'   \item{\code{W}}{a list of candidate instruments.}
-#'   \item{\code{Z}}{a list of corresponding candidate adjustment sets.}
-#'   \item{\code{aces}}{a list of corresponding candidate causal effects.}
-#'   \item{\code{tetrad_scores}}{a list of corresponding scores for each candidate causal effect.}   
-#'   \item{\code{score_sel}}{the same scores, but with \code{-Inf} for those which do not pass a tetrad test.}
-#'   \item{\code{tetrad_tests]}{the corresponding tetrad tests.}
-#'   
-#' @details
-#' This provides a full example on how to run a simulation study using the main method
-#' developed in this package, along with a comparison against standard procedures. See
-#' the description of \code{run_experiment} for more details.
-#'  
-#' @export
-
 iv_tetrad <- function(train_dat, W_space, x, y, K_win, verbose = FALSE, blanket_prune = TRUE)
 {
   m <- matrix(colMeans(train_dat), nrow = 1)
