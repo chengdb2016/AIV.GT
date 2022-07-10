@@ -3,6 +3,9 @@
 The codes are for the paper: 
 "Discovering ancestral instrumental variables for causal inference from observational data" 
 Debo Cheng and Jiuyong Li and Lin Liu and Kui Yu and Thuc Duy Le and Jixue Liu.
+https://arxiv.org/pdf/2206.01931.pdf
+
+For enquiries, please send email to: Debo.Cheng@unisa.edu.au
 
 ### All codes are written by R language ###
 *AIV.GT
