@@ -6,14 +6,18 @@ Debo Cheng and Jiuyong Li and Lin Liu and Kui Yu and Thuc Duy Le and Jixue Liu.
 
 ### All codes are written by R language ###
 *AIV.GT
+
 *PossCEs.R
+
 # Code for IV.tetrad: iv_tetrad_test.R that is from the authors's home page
 http://www.homepages.ucl.ac.uk/~ucgtrbd/code/iv_discovery
 # Code for sisVIVE: the R package sisVIVE, using the R command: install.packages("sisVIVE")
 
 #Demo
 **Demo_AIV.GT_syntheticdatasets.R
+
 **Do_VitD.R
+
 **Do_Schoolingreturns.R
  
 # Datasets 
