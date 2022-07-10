@@ -1,12 +1,12 @@
 ############################################################################################
 # AIV.GT
 #
-# The main functions for AIV.GT
+# The main functions for AIV.GT algorithm
 #
 # Code by Debo Cheng
 #  
 #
-# Current version: ***
+# Current version: Jan 15, 2022
  
 
 #' @title Discovering ancestral instrumental variables for causal inference from observational data.
