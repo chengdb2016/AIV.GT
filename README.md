@@ -2,11 +2,11 @@
 
 The codes are for the paper: 
 "Discovering ancestral instrumental variables for causal inference from observational data" 
-Debo Cheng and Jiuyong Li and Lin Liu and Kui Yu and Thuc Duy Le and Jixue Liu.
+IEEE Transactions on Neural Networks and Learning Systems, Debo Cheng and Jiuyong Li and Lin Liu and Kui Yu and Thuc Duy Le and Jixue Liu.
 
-https://arxiv.org/pdf/2206.01931.pdf
+https://ieeexplore.ieee.org/abstract/document/10092521https://arxiv.org/pdf/2206.01931.pdf
 
-For enquiries, please send email to: Debo.Cheng@unisa.edu.au
+For enquiries, please send email to: chedy055@mymail.unisa.edu.au
 
 ### All codes are written by R language ###
 *AIV.GT
@@ -32,3 +32,13 @@ http://www.homepages.ucl.ac.uk/~ucgtrbd/code/iv_discovery
 *  Data_Num_4_syn.Rdata  #|S|=6
 *  VitD data
 *  Schoolingreturns data
+
+
+**citation***
+@article{cheng2023discovering,
+  title={Discovering ancestral instrumental variables for causal inference from observational data},
+  author={Cheng, Debo and Li, Jiuyong and Liu, Lin and Yu, Kui and Le, Thuc Duy and Liu, Jixue},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2023},
+  publisher={IEEE}
+}
